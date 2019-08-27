@@ -10,7 +10,8 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   upgraded_array = []
-  array.each 
+  array.each do |el|
+    upgraded_array.push("#{el.capitalize}!")
 end
 
 def long_planeteer_calls# code an argument here
