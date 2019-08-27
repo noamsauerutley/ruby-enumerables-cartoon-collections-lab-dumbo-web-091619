@@ -11,7 +11,7 @@ def summon_captain_planet(array)# code an argument here
   # Your code here
   upgraded_array = []
   array.each do |el|
-    upgraded_array.push("#{el.capitalize}!")
+    upgraded_array<<"#{el.capitalize}!"
   end
   return upgraded_array
 end
