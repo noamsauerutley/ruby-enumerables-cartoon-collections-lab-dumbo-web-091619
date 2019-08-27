@@ -27,5 +27,4 @@ def find_the_cheese(array)# code an argument here
   cheese_types each do |cheese|
     array.detect {|el| el == cheese}
   end
-  nil
 end
