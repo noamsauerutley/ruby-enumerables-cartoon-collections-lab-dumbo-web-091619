@@ -9,7 +9,8 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  
+  upgraded_array = []
+  array.each 
 end
 
 def long_planeteer_calls# code an argument here
